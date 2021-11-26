@@ -57,8 +57,8 @@ MODULE RRC_DataTask_Rx(SYSMODULE)
     CONST num n_RRC_TimeOutRecRobSocRec:=10;
     !
     TASK PERS num n_RRC_WritePtrBufCtrl{n_RRC_NumOfCha}:=[0,0,0,0];
-    TASK PERS num n_RRC_WritePtrBufRob{n_RRC_NumOfCha}:=[1,0,0,0];
-    TASK PERS num n_RRC_SIDExpected{n_RRC_NumOfCha}:=[1,0,0,0];
+    TASK PERS num n_RRC_WritePtrBufRob{n_RRC_NumOfCha}:=[2,0,0,0];
+    TASK PERS num n_RRC_SIDExpected{n_RRC_NumOfCha}:=[2,0,0,0];
     TASK PERS num n_RRC_SIDIs{n_RRC_NumOfCha}:=[70001,0,0,0];
     !
     VAR num n_RRC_MsgLenRob{n_RRC_NumOfCha};
@@ -104,7 +104,7 @@ MODULE RRC_DataTask_Rx(SYSMODULE)
     TASK PERS RRC_Protocol pro_RRC_ActMsgTemp:=[[0,0,0,0],[0,0,0,"",0,0,"",0,0,0,"",0,"",0,"",0,"",0,"",0,"",0,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]];
     !
     TASK PERS RRC_Protocol pro_RRC_ActMsgRec{n_RRC_NumOfCha}:=[
-    [[79,2,1.63794E+09,288],[1,0,12,"r_E002_Demeo",1,0,"",0,1,11,"Mytext Text",0,"",0,"",0,"",0,"",0,"",0,"",0,"",1,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],
+    [[122,2,1.63794E+09,265],[2,0,18,"r_RRC_MoveToJoints",0,0,"",0,0,33,"Welcome AFAB to COMPAS_RRC ;) !!!",0,"",0,"",0,"",0,"",0,"",0,"",0,"",14,-63,0,34.7,2.9,0,0,0,0,0,0,0,0,1000,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],
     [[67,4,1.58281E+09,242],[4,0,15,"r_RRC_WaitTime",1,0,"",0,0,24,"E-Level Channel 2 Controller",0,"",0,"",0,"",0,"",0,"",0,"",0,"",1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],
     [[120,4,1.55775E+09,695],[11,0,12,"r_RRC_MoveL",1,0,"",0,0,0,"",0,"",0,"",0,"",0,"",0,"",0,"",0,"",15,542.04,-200,237.57,0,0,1,0,28000,-3400,-3138,0,0,0,230,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],
     [[120,4,1.55775E+09,695],[11,0,12,"r_RRC_MoveL",1,0,"",0,0,0,"",0,"",0,"",0,"",0,"",0,"",0,"",0,"",15,542.04,-200,237.57,0,0,1,0,28000,-3400,-3138,0,0,0,230,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]];
