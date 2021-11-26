@@ -36,12 +36,12 @@ MODULE E002_DataTask
     ! Declaration :     jointtarget
     !************************************************
     !
-    TASK PERS tooldata t_E002_Tool_X:=[TRUE,[[0,0,0],[1,0,0,0]],[0,[0,0,0],[1,0,0,0],0,0,0]];
+    TASK PERS tooldata t_E002_Tool_X:=[TRUE,[[225,0,40],[0.707106781,0,0.707106781,0]],[0,[0,0,0],[1,0,0,0],0,0,0]];
 
     !************************************************
     ! Declaration :     jointtarget
     !************************************************
     !
-    TASK PERS wobjdata ob_E002_Table_X:=[FALSE,TRUE,"",[[0,0,0],[1,0,0,0]],[[0,0,0],[1,0,0,0]]];
+    TASK PERS wobjdata ob_E002_Table_X:=[FALSE,TRUE,"",[[1786.5,-2464,-400],[1,0,0,0]],[[0,0,0],[1,0,0,0]]];
 
 ENDMODULE
