@@ -60,7 +60,7 @@ MODULE RRC_Base_DataTask_Rob (SYSMODULE)
     TASK PERS string st_RRC_ActBtn4:="";
     TASK PERS string st_RRC_ActBtn5:="";
     TASK PERS string st_RRC_Header:="Update Speed";
-    TASK PERS string st_RRC_TPWrite:="Welcome Fabtory to COMPAS_RRC ;) !!!";
+    TASK PERS string st_RRC_TPWrite:="The Task T_Rob1 will stop in 1 second!";
     TASK PERS string st_RRC_StringValue:="Custom Text";
 
     !************************************************
@@ -80,7 +80,7 @@ MODULE RRC_Base_DataTask_Rob (SYSMODULE)
     !************************************************
     !
     CONST speeddata v_RRC_Default:=[25,500,5000,1000];
-    TASK PERS speeddata v_RRC_Act:=[100,500,5000,1000];
+    TASK PERS speeddata v_RRC_Act:=[250,500,5000,1000];
 
     !************************************************
     ! Declaration :     zonedata
@@ -92,13 +92,13 @@ MODULE RRC_Base_DataTask_Rob (SYSMODULE)
     ! Declaration :     jointtarget
     !************************************************
     !  
-    TASK PERS jointtarget jp_RRC_Act:=[[-89.9543,-30,70,-2.03628E-21,50,0.0456808],[0,9E+9,9E+9,9E+9,9E+9,9E+9]];
+    TASK PERS jointtarget jp_RRC_Act:=[[-49.9998,-33.9998,65.0003,1.96227E-05,59.9996,0.00015541],[-0.000678795,9E+09,9E+09,9E+09,9E+09,9E+09]];
 
     !************************************************
     ! Declaration :     robtarget
     !************************************************
     !  
-    TASK PERS robtarget p_RRC_Act:=[[0.819989,-1028.48,818.083],[1.95754E-8,0.707107,0.707107,-1.95442E-8],[-1,-1,0,0],[0,9E+9,9E+9,9E+9,9E+9,9E+9]];
+    TASK PERS robtarget p_RRC_Act:=[[937.004,-818.735,992.422],[-0.00790983,0.422603,0.906273,0.00368931],[-1,0,0,0],[-0.000678795,9E+09,9E+09,9E+09,9E+09,9E+09]];
 
     !************************************************
     ! Declaration :     signaldo
