@@ -1,0 +1,21 @@
+HINWEIS: Die Datei darf nicht bearbeitet werden!
+ 
+Datum                 Version     Name            Achse  OpMode        Status        BM config   
+========================================================================================================================
+2021-09-22 13:55:08   v1.71       ROB_1           1      OP_MAN_PROG   OK            TRUE        
+2021-09-22 13:55:18   v1.71       ROB_1           2      OP_MAN_PROG   OK            TRUE        
+2021-09-22 13:56:28   CBC unterbrochen.
+2021-09-22 13:56:28   PZ verschoben. Neuer CBC erforderlich.
+------------------------------------------------------------------------------------------------------------------------
+2021-09-22 14:00:03   v1.71       ROB_1           1      OP_MAN_PROG   OK            TRUE        
+2021-09-22 14:00:13   v1.71       ROB_1           2      OP_MAN_PROG   OK            TRUE        
+2021-09-22 14:00:22   v1.71       ROB_1           3      OP_MAN_PROG   OK            TRUE        
+2021-09-22 14:00:32   v1.71       ROB_1           4      OP_MAN_PROG   OK            TRUE        
+2021-09-22 14:00:42   v1.71       ROB_1           5      OP_MAN_PROG   OK            TRUE        
+2021-09-22 14:00:52   v1.71       ROB_1           6      OP_MAN_PROG   OK            TRUE        
+2021-09-22 14:01:02   v1.71       TRACK           1      OP_MAN_PROG   OK            TRUE        
+                      Position:
+                      ROB_1:  0:-34:60:0:60:0
+                      TRACK: 2000
+ 
+------------------------------------------------------------------------------------------------------------------------
